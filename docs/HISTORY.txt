@@ -5,3 +5,9 @@ Changelog
 -------------------
 
 - Initial release
+- Useable translation files
+
+1.1dev
+------
+
+- Add Chinese normalizer
