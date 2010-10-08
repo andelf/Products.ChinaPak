@@ -1,0 +1,15 @@
+README.txt
+setup.cfg
+setup.py
+Products/__init__.py
+Products.ChinaPak.egg-info/PKG-INFO
+Products.ChinaPak.egg-info/SOURCES.txt
+Products.ChinaPak.egg-info/dependency_links.txt
+Products.ChinaPak.egg-info/entry_points.txt
+Products.ChinaPak.egg-info/namespace_packages.txt
+Products.ChinaPak.egg-info/not-zip-safe
+Products.ChinaPak.egg-info/paster_plugins.txt
+Products.ChinaPak.egg-info/requires.txt
+Products.ChinaPak.egg-info/top_level.txt
+Products/ChinaPak/__init__.py
+Products/ChinaPak/tests.py
