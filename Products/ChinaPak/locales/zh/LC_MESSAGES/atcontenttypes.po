@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ATContentTypes\n"
 "POT-Creation-Date: 2010-07-17 18:55+0000\n"
-"PO-Revision-Date: 2010-10-08 16:43+0800\n"
+"PO-Revision-Date: 2010-10-09 00:00+0800\n"
 "Last-Translator: adam tang(315ok.org) <yuejun.tang@gmail.com>\n"
 "Language-Team: www.zopen.cn <zhangbingkai@zopen.cn>\n"
 "MIME-Version: 1.0\n"
@@ -822,13 +822,13 @@ msgstr "逆序"
 #. Default: "Value"
 #: ATContentTypes/criteria/simplestring.py:29
 msgid "label_string_criteria_value"
-msgstr "字符串值"
+msgstr "值"
 
 #. Default: "Summary"
 #: ATContentTypes/content/document.py:80
 #: ATContentTypes/content/newsitem.py:86
 msgid "label_summary"
-msgstr "总结"
+msgstr "摘要"
 
 #. Default: "Transform"
 #: ATContentTypes/skins/ATContentTypes/atct_image_transform.pt:33

@@ -5,5 +5,18 @@
     i18n_domain="Products.ChinaPak">
 
   <i18n:registerTranslations directory="locales"/>
-  
+
+
+
+  <utility
+      name="zh"
+      provides="plone.i18n.normalizer.interfaces.IFileNameNormalizer"
+      component=".zh.normalizer"
+      permission="zope.Public" />
+
+  <utility
+      name="zh"
+      provides="plone.i18n.normalizer.interfaces.IURLNormalizer"
+      component=".zh.normalizer"
+      permission="zope.Public" />  
 </configure>
