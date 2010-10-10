@@ -1,10 +1,38 @@
 Introduction
 ============
 
-A Chinese pak for plone.
-Tested only on plone 4, but plone 3.5+ should be OK.
+A Chinese Simplified pak for plone.
 
-Contain translation .po files of ploe.app.locales 4.0.0, fully translated.
+Tested only on plone 4.
 
-And a chinese id normalizer. :)
+Contain all .po files from ploe.app.locales 4.0.0, fully translated.
+
+Also a chinese id normalizer. :)
+
+covert all chinese characters to `-' splitted pinyin string.
+
+for e.g.
+
+- u"你好" => "ni-hao"
+- u"你好 Python" => "ni-hao-python"
+
+Why
+---
+
+Current Plone Chinese Translation is buggy and haven't updated for some days.
+
+How
+---
+
+Inspired By http://www.zope.org/Members/panjunyong/ZopeChinaPak .
+
+Also http://plone-regional-forums.221720.n2.nabble.com/plone4-how-to-override-translations-in-plone-app-locales-tt5456430.html .
+
+Contact
+-------
+
+**andelf**
+
+- e-mail: andelf@gmail.com
+- location: Northeastern University of China
 
