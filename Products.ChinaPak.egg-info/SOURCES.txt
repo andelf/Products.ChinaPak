@@ -12,4 +12,6 @@ Products.ChinaPak.egg-info/paster_plugins.txt
 Products.ChinaPak.egg-info/requires.txt
 Products.ChinaPak.egg-info/top_level.txt
 Products/ChinaPak/__init__.py
+Products/ChinaPak/pinyin.py
 Products/ChinaPak/tests.py
+Products/ChinaPak/zh.py

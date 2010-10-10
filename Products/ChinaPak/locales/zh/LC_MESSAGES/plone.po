@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
 "POT-Creation-Date: 2010-08-28 10:43+0000\n"
-"PO-Revision-Date: 2010-10-08 17:12+0800\n"
+"PO-Revision-Date: 2010-10-10 12:35+0800\n"
 "Last-Translator: andelf <andelf@gmail.com>\n"
 "Language-Team: andelf <andelf@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -484,7 +484,7 @@ msgstr "附加产品配置"
 #: CMFPlone/profiles/default/controlpanel.xml
 #: CMFPlone/skins/plone_prefs/prefs_install_products_form.pt:14
 msgid "Add-ons"
-msgstr "安装/卸载产品"
+msgstr "附加产品"
 
 #: ./plone.app.openid/plone/app/openid/configure.zcml
 msgid "Adds support for authenticating with OpenID credentials in a Plone site"

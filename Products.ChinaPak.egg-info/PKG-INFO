@@ -1,14 +1,20 @@
 Metadata-Version: 1.0
 Name: Products.ChinaPak
-Version: 1.0
-Summary: Chinese new translation
+Version: 1.1
+Summary: Chinese new translation & normalizer
 Home-page: http://svn.plone.org/svn/collective/
-Author: UNKNOWN
-Author-email: UNKNOWN
-License: GPL
+Author: andelf
+Author-email: andelf@gmail.com
+License: GPLv2
 Description: Introduction
         ============
         
+        A Chinese pak for plone.
+        Tested only on plone 4, but plone 3.5+ should be OK.
+        
+        Contain translation .po files of ploe.app.locales 4.0.0, fully translated.
+        
+        And a chinese id normalizer. :)
         
         
         Changelog
@@ -18,7 +24,15 @@ Description: Introduction
         -------------------
         
         - Initial release
+        - Useable translation files
         
+        1.1dev
+        ------
+        
+        - Add Chinese normalizer
+        
+Keywords: plone i18n chinese normalizer translation
 Platform: UNKNOWN
 Classifier: Framework :: Plone
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
 Classifier: Programming Language :: Python
