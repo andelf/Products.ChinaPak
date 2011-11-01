@@ -1,7 +1,7 @@
 Metadata-Version: 1.0
 Name: Products.ChinaPak
 Version: 1.1
-Summary: Chinese new translation & normalizer
+Summary: Chinese new translation and a normalizer for Plone 4
 Home-page: http://github.com/andelf/Products.ChinaPak
 Author: andelf
 Author-email: andelf@gmail.com
@@ -17,12 +17,12 @@ Description: Introduction
         
         Also a chinese id normalizer. :)
         
-        covert all chinese characters to `-' splitted pinyin string.
+        covert all chinese characters to **-** splitted pinyin string.
         
-        for e.g.
+        like:
         
-        - u"你好" => "ni-hao"
-        - u"你好 Python" => "ni-hao-python"
+         - u"你好" => "ni-hao"
+         - u"你好 Python" => "ni-hao-python"
         
         Why
         ---
@@ -39,28 +39,13 @@ Description: Introduction
         Contact
         -------
         
-        **andelf**
+        andelf
         
-        - e-mail: andelf@gmail.com
-        - location: Northeastern University of China
+         - e-mail: andelf@gmail.com
         
-        
-        Changelog
-        =========
-        
-        1.0dev (unreleased)
-        -------------------
-        
-        - Initial release
-        - Useable translation files
-        
-        1.1dev
-        ------
-        
-        - Add Chinese normalizer
-        
-Keywords: plone i18n chinese normalizer translation
+Keywords: plone i18n chinese normalizer translation chinapak
 Platform: UNKNOWN
 Classifier: Framework :: Plone
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
 Classifier: License :: OSI Approved :: GNU General Public License (GPL)
 Classifier: Programming Language :: Python

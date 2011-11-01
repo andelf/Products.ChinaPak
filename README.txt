@@ -9,12 +9,12 @@ Contain all .po files from ploe.app.locales 4.0.0, fully translated.
 
 Also a chinese id normalizer. :)
 
-covert all chinese characters to `-' splitted pinyin string.
+covert all chinese characters to **-** splitted pinyin string.
 
-for e.g.
+like:
 
-- u"你好" => "ni-hao"
-- u"你好 Python" => "ni-hao-python"
+ - u"你好" => "ni-hao"
+ - u"你好 Python" => "ni-hao-python"
 
 Why
 ---
@@ -31,8 +31,6 @@ Also http://plone-regional-forums.221720.n2.nabble.com/plone4-how-to-override-tr
 Contact
 -------
 
-**andelf**
+andelf
 
-- e-mail: andelf@gmail.com
-- location: Northeastern University of China
-
+ - e-mail: andelf@gmail.com
