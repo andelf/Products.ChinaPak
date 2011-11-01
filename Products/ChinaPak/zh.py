@@ -23,7 +23,7 @@ def mapUnicode(text, mapping=()):
     word = u''                          # handle english words
     for ch in text:
         ordinal = ord(ch)
-        if ordinal< 127:
+        if ordinal< 127 and ch.isalnum():
             word += ch
             continue
         elif word:
@@ -33,9 +33,10 @@ def mapUnicode(text, mapping=()):
             res.append(mapping.get(ordinal))
         else:
             res.append(ch)
+    res.append(word)        
     res = filter(lambda u: u and not u.isspace(), res)
     # always apply base normalization
-    return baseNormalize(u' '.join(res))
+    return baseNormalize(u'-'.join(res))
                                                     
 
 class Normalizer(object):
