@@ -18,7 +18,7 @@ setup(name='Products.ChinaPak',
       keywords='plone i18n chinese normalizer translation',
       author='andelf',
       author_email='andelf@gmail.com',
-      url='http://svn.plone.org/svn/collective/',
+      url='http://github.com/andelf/Products.ChinaPak',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['Products'],
@@ -34,6 +34,4 @@ setup(name='Products.ChinaPak',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )
