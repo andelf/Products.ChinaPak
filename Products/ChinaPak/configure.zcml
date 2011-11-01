@@ -6,7 +6,8 @@
 
   <five:registerPackage package="." />
 
-  <i18n:registerTranslations directory="locales"/>
+<!-- uncomment next line to enable personalized translation -->
+<!--  <i18n:registerTranslations directory="locales"/> -->
 
   <utility
       name="zh"
@@ -18,6 +19,6 @@
       name="zh"
       provides="plone.i18n.normalizer.interfaces.IURLNormalizer"
       component=".zh.normalizer"
-      permission="zope.Public" />  
+      permission="zope.Public" />
 
 </configure>

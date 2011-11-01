@@ -11,3 +11,8 @@ Changelog
 ------
 
 - Add Chinese normalizer
+
+1.2dev
+------
+
+- remove locales configuration from zcml

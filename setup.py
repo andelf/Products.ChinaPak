@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 import os
 import codecs
 
-version = '1.1'
+version = '1.2'
 
 setup(name='Products.ChinaPak',
       version=version,
